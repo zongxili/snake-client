@@ -20,7 +20,28 @@ const connect = function() {
     //   console.log("Sent Name");
     // });
     conn.write("Name: ZXL");
+
+    // setTimeout(function(){ 
+    //   conn.write("Move: up");
+    // }, 1000);
+
+    // setTimeout(function(){ 
+    //   conn.write("Move: left");
+    // }, 2000);
+
+    // setTimeout(function(){ 
+    //   conn.write("Move: down");
+    // }, 3000);
+
+    // setTimeout(function(){ 
+    //   conn.write("Move: right");
+    // }, 4000);
+
+
+
   });
+
+
 
   
   //Update the connect function to also attach an event handler to handle incoming data and console log it for the player.
